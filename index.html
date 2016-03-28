@@ -16,9 +16,10 @@
     <div class="main" ng-controller = "MainController">      
       <div class="container">
         <div class="content">
-          <div ng-repeat="tv in shows">
+          <div ng-repeat="show in shows">
             <div class="rank">{{$index + 1}}</div>
-              <tv-show info="tv"></tv-show>
+            <!-- The "show value seen below comes from the first value in the ng-repeat as seen above. Think that the tv-show div comes from the directives/tvShow.js -->
+              <tv-show info="show"></tv-show>
             </div>
 
 
