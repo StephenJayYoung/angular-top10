@@ -1,9 +1,9 @@
-app.directive('tvShow', function() { 
-  return { 
-    restrict: 'E', 
-    scope: { 
-      info: '=' 
-    }, 
-    templateUrl: 'js/directives/tvShow.html' 
-  }; 
+app.directive("tvShow",function(){
+  return{
+    scope:{
+     info:"=" 
+    },
+    templateUrl:"js/directives/tvShow.html"
+  }
+  
 });
